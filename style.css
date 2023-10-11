@@ -1,6 +1,8 @@
 :root {
 
     --default-child-width:18rem;
+    --default-font-price:2.0rem;
+    --default-font-hashed:0.8rem;
 }
 
 * {
@@ -12,6 +14,30 @@
 body {
 
     background: hsl(30, 38%, 92%);
+}
+
+.btn-cart {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: green;
+    border-radius: 0.5rem;
+    border-style: hidden;
+    height: 3rem;
+}
+
+.btn-cart:hover {
+
+    background-color: darkgreen;
+}
+
+.btn-text {
+
+    color:white;
+    margin-left: 0.8rem;
+    font-family: "Fraunces", sans-serif;
 }
 
 .content-container {
@@ -29,9 +55,14 @@ body {
 
 }
 
+.content-description {
+
+    color:hsl(228, 12%, 48%);
+}
+
 .content-product {
 
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
@@ -45,6 +76,30 @@ body {
     align-items: center;
     justify-content: center;
     height: 95vh;
+}
+
+.prices {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.price-main {
+
+    color:green;
+    font-weight: bold;
+    font-size: var(--default-font-price);
+    font-family: "Fraunces", sans-serif;
+}
+
+.price-hashed {
+
+    display: flex;
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through;
+    font-size:var(--default-font-hashed);
+    align-items: center;
+    margin-left: 1rem;
 }
 
 .img-container > img {
