@@ -26,15 +26,15 @@ Users should be able to:
 
 ### Screenshot Desktop
 
-![Screenshot-desktop](screenshot.jpg)
+![Screenshot-desktop](screenshot.JPG)
 
 ### Scheenshot Mobile
-![Screenshot-mobile](screenshot-mobile.jpg)
+![Screenshot-mobile](screenshot-mobile.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/UnknownBuilder/FEmentor_preview_card)
+- Live Site URL: [Live Website URL](https://unknownbuilder.github.io/FEmentor_preview_card/)
 
 ## My process
 
