@@ -44,7 +44,7 @@ body {
 
     width: var(--default-child-width);
     background: white;
-    padding: 2.5rem;
+    padding: 2.0rem;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 
@@ -68,6 +68,14 @@ body {
     letter-spacing: 0.3rem;
     color:hsl(228, 12%, 48%)
 
+}
+
+.content-headline {
+
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.85rem;
 }
 
 .primary-container {
@@ -122,10 +130,34 @@ footer {
 main {
 
     display: flex;
-    width: var(--default-parent-width);
     flex-direction: row;
 
 }
 
+@media (max-width: 600px) {
+
+        main {
+
+            flex-direction: column;
+        }
+
+        .img-container > img {
+
+            content: url(images/image-product-mobile.jpg);
+            border-top-right-radius: 0.5rem;
+            border-bottom-left-radius: 0rem;
+            width: 21.5rem;
+        }
+
+        .content-container {
+
+            padding: 2rem;
+            border-top-right-radius: 0rem;
+            border-bottom-left-radius: 0.5rem;
+            width: 21.5rem;
+            gap: 1rem
+
+        }
+}
 
 
