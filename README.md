@@ -14,9 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,17 +24,12 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+### Screenshot Desktop
 
-![](./screenshot.jpg)
+![Screenshot](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+### Scheenshot Mobile
+![Screenshot](./screenshot-mobile.jpg)
 
 ### Links
 
@@ -48,64 +40,29 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML
+- CSS Media Queries
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned some projects are better when you have a desktop first approach. In my last challenge I had some struggles and I thougth it was because I didn't start my project with a mobile first mindset but after attempting to write the code I found that it was easier, at least for this challenge, to develop with just the desktoop in mind.
 
-To see how you can add code snippets, see below:
+When it comes to coding, everything is about using your judgement. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Dealing with images was new. Learned all about the object-fit property and how to deal with imgaes when thinking about website responsiveness. 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I'm getting a lot faster when it comes to these challenges. I noticed that I had the basic structure of this challenge down very quickly. The color, the fonts, placement, it all came very natural to me this go-around. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I attempted to use CSS Grid in this challenge but later decided to stick with flexbox when I discovered that anything you can do in Grid, you can do in Flexbox and that some developers stick with one. I will learn CSS Grid at some point but for now, I'm going to focus on mastering Flexbox. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Responsive Image Tutorial](https://www.youtube.com/watch?v=5MeogG-ZFs8&ab_channel=CemEygiMedia) - This wasn't very helpful for this specific challenge but great information when it comes images and responsive websites. 
+- [Flexbox Tutorial](https://www.youtube.com/watch?v=phWxA89Dy94&t=249s&ab_channel=SlayingTheDragon) - I'm new to Flexbox so I keep watching YouTube tutorials on the subject every time I start a new challenge. This particular tutorial made things click just a little more for me. 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@UnknownBuilder](https://www.frontendmentor.io/profile/unknownbuilder)
