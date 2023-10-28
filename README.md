@@ -26,10 +26,10 @@ Users should be able to:
 
 ### Screenshot Desktop
 
-![Screenshot](./screenshot.jpg)
+![Screenshot-desktop](screenshot.jpg)
 
 ### Scheenshot Mobile
-![Screenshot](./screenshot-mobile.jpg)
+![Screenshot-mobile](screenshot-mobile.jpg)
 
 ### Links
 
